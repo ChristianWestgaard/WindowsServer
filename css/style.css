@@ -1,0 +1,31 @@
+body{
+    background-color: #161016;
+    color: #b3b3b3;
+}
+.ColLeft{
+    background-color: #252525;
+}
+.navBar{
+    background-color: #6c4286;
+    color: #19091D;
+}
+.navBar{
+    color: #19091D;
+}
+a:link {
+    color: #19091D;
+}
+a:hover {
+    color: #390e3d;
+}
+a:visited {
+    color: #390e3d;
+}
+a:active {
+    color: #b14aed;
+}
+
+.MPimg{
+    width: 70%;
+    margin: 6%;
+}

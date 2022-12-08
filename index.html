@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubuntu Tutorial</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/app.js"></script>
+    <script src="https://kit.fontawesome.com/ac8f0ed9b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav style="position: fixed; margin-bottom: 3%; width: 100%;" class=" navBar navbar navbar-expand-md">
+      <a style="color:19091d; margin-left: 1.5%;" href="#" class="navlink nav-link align-middle px-0">
+        <i class="homeButton fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-right:30px ;">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <div class="navItem">
+            <a class="nav-link" href="#VMSPHERE">VM-Sphere</a>
+          </div>
+        </li>
+        </ul>
+      </div>
+    </nav>
+
+  <layer id="layer2">
+    <div style="padding-top: 68px;" class="container-fluid">
+      <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 bg-dark">
+          <div class="ColLeft d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+            <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+              <li class="nav-item">
+              </li>
+              <li>
+                <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+            </ul>
+          </div>
+        </div>
+      <div style="margin: 0%;" class="col py-3">
+        <div class="MP">
+          <h1>
+          </h1>
+  
+          <h3>
+          </h3>
+          <br><br>
+          <h5>
+
+          </h5>
+          <br><br>
+          
+          <h2 class="stegCount" id="steg1 level1">Steg 1</h2>
+          <img class="MPimg" src="./img/1.jpg" alt=""><br>
+          <h7 class="MPimgBT">Start med å gå inn på "New Viritual Machine på ditt VMware nett.</h7>
+
+          <h2 class="stegCount" id="steg2 level1">Steg 2</h2>
+          <img class="MPimg" src="./img/2.jpg" alt=""><br>
+          <h7 class="MPimgBT">Velg din lokasjon som har biltt tildelt til deg.</h7>
+
+          <h2 class="stegCount" id="steg3 level1">Steg 3</h2>
+          <img class="MPimg" src="./img/3.jpg" alt=""><br>
+          <h7 class="MPimgBT">Gå inn på ditt pool innenfor lokasjonen</h7>
+
+          <h2 class="stegCount" id="steg4 level1">Steg 4</h2>
+          <img class="MPimg" src="./img/4.jpg" alt=""><br>
+          <h7 class="MPimgBT">Velg den ønskade lagringsplass for Serveren og Klienten</h7>
+
+          <h2 class="stegCount" id="steg5 level1">Steg 5</h2>
+          <img class="MPimg" src="./img/5.jpg" alt=""><br>
+          <h7 class="MPimgBT">Du kan la dette stå som standard (om du ikke har fått besked om noe annet)</h7>
+
+          <h2 class="stegCount" id="steg6 level1">Steg 6</h2>
+          <img class="MPimg" src="./img/6.jpg" alt=""><br>
+          <h7 class="MPimgBT">For Windows Serveren skal være satt som "Microsoft windows Server 2016 or Later (64 bit)</h7>
+
+          <h2 class="stegCount" id="steg7 level1">Steg 7</h2>
+          <img class="MPimg" src="./img/7.jpg" alt=""><br>
+          <h7 class="MPimgBT">Når du setter opp VMvare instillinger sørg for å ha Disk Provisioning på "Thin" Dette gjør at det ikke er like krevende for VMware serveren å kjøre flere forskjellige simuleringer av PCer</h7>
+
+          <h2 class="stegCount" id="steg8 level1">Steg 8</h2>
+          <img class="MPimg" src="./img/8.jpg" alt=""><br>
+          <h7 class="MPimgBT">Sørg for at du lagrer enheten på din egen bruker og at du har skrudd på "Connect At Power On"</h7>
+
+          <h2 class="stegCount" id="steg9 level1">Steg 9</h2>
+          <img class="MPimg" src="./img/9.jpg" alt=""><br>
+          <h7 class="MPimgBT">Gå inn på "CD/DVD Media" for å velge hvilket oppratvisystem du skal bruke på PCen.</h7>
+          
+          <h2 class="stegCount" id="steg10 level1">Steg 10</h2>
+          <img class="MPimg" src="./img/10.jpg" alt=""><br>
+          <h7 class="MPimgBT">Velg "en_windows_server_2019..."(sørg for at den er vagt med det blå symbolet på venstre. <br>  Når du går ut av valgmenyen sørg for at "Connect at Power On" er på. Du må også gå inn på "VM Options" på toppen av menyen, gå inn på "Boot Options" og sørg for at "Force BIOS setup" er skrudd på"</h7>
+
+          <h2 class="stegCount" id="steg11 level1">Steg 11</h2>
+          <img class="MPimg" src="./img/11.jpg" alt=""><br>
+          <h7 class="MPimgBT">Om dine innstillinger ser slik ut har du gjort alt riktig</h7>
+
+          <h2 class="stegCount" id="steg12 level1">Steg 12</h2>
+          <img class="MPimg" src="./img/12.jpg" alt=""><br>
+          <h7 class="MPimgBT">Trykk på den grønne pilen på toppen av skjermen for å skru på denne virituelle PCen</h7>
+
+          <h2 class="stegCount" id="steg13 level1">Steg 13</h2>
+          <img class="MPimg" src="./img/13.jpg" alt=""><br>
+          <h7 class="MPimgBT">For å starte setup på PCen trykk på "Launch Web Console". Dette vil starte PCen i et nytt vindu på din søkemotor</h7>
+          
+          <h2 class="stegCount" id="steg14 level2">Steg 14</h2>
+          <img class="MPimg" src="./img/14.jpg" alt=""><br>
+          <h7 class="MPimgBT">Bruk piltastene til å navigere ned til "Enter Setup", deretter trykk på enter for å gå videre.</h7>
+
+          <h2 class="stegCount" id="steg15 level2">Steg 15</h2>
+          <img class="MPimg" src="./img/15.jpg" alt=""><br>
+          <h7 class="MPimgBT">Her kan du trykke direkte inn på "Configure boot options"</h7>
+
+          <h2 class="stegCount" id="steg16 level2">Steg 16</h2>
+          <img class="MPimg" src="./img/16.jpg" alt=""><br>
+          <h7 class="MPimgBT">Gå ned til "Enable or disable boot options" og trykk på enter.</h7>
+
+          <h2 class="stegCount" id="steg17 level2">Steg 17</h2>
+          <img class="MPimg"  src="./img/17.jpg" alt=""><br>
+          <h7 class="MPimgBT">Når du har kommet inn på Boot options må du kun sjekka at alle tre valg er satt på "Enabled". Om dette stemmer kan du trykke på "Commit changes and exit"</h7>
+          
+          <h2 class="stegCount" id="steg18 level3">Steg 18</h2>
+          <img class="MPimg" src="./img/18.jpg" alt=""><br>
+          <h7 class="MPimgBT">Dette bør ta deg direkte til starten på Boot menyen, Velg "Boot normally" og press enter.</h7>
+
+          <h2 class="stegCount" id="steg19 level3">Steg 19</h2>
+          <img class="MPimg" src="./img/19.jpg" alt=""><br>
+          <h7 class="MPimgBT">Etter litt lasting bør du se denne skjermen. Trykk på "Install now".</h7>
+
+          <h2 class="stegCount" id="steg20 level3">Steg 20</h2>
+          <img class="MPimg" src="./img/20.jpg" alt=""><br>
+          <h7 class="MPimgBT">Når du får opp lisens kontrakten må du trykke på aksepter før du kan gå videre. Trykk på "Next"</h7>
+
+          <h2 class="stegCount" id="steg21 level3">Steg 21</h2>
+          <img class="MPimg" src="./img/21.jpg" alt=""><br>
+          <h7 class="MPimgBT">Velg den markerte linken.</h7>
+
+          <h2 class="stegCount" id="steg22 level3">Steg 22</h2>
+          <img class="MPimg" src="./img/22.jpg" alt=""><br>
+          <h7 class="MPimgBT">Mellom alle 4 valgene må du velge Standard Desktop Experience for at du skal kunne følge disse instruksjonene.</h7>
+
+          <h2 class="stegCount" id="steg23 level3">Steg 23</h2>
+          <img class="MPimg" src="./img/23.jpg" alt=""><br>
+          <h7 class="MPimgBT">I dette tilfellet vil jeg anbefale å trykke på den nederste linken om du vil sørge for at alle instillingene er satt rett eller om du ikke har tilgang til Upgrade versonen. instruksjonene kommer til å følge den nederste linken.</h7>
+
+          <h2 class="stegCount" id="steg24 level3">Steg 24</h2>
+          <img class="MPimg" src="./img/24.jpg" alt=""><br>
+          <h7 class="MPimgBT">Sørg for at driveren du vil boote serveren på er valgt så trykk på "Next"</h7>
+
+          <h2 class="stegCount" id="steg25 level3">Steg 25</h2>
+          <img class="MPimg" src="./img/25.jpg" alt=""><br>
+          <h7 class="MPimgBT">Det kommer nok til å laste på denne måten i ca 3 min.</h7>
+
+          <h2 class="stegCount" id="steg26 level3">Steg 26</h2>
+          <img class="MPimg" src="./img/26.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg27 level3">Steg 27</h2>
+          <img class="MPimg" src="./img/27.jpg" alt=""><br>
+          <h7 class="MPimgBT">Lag et passord som du skriver ned (Du må starte på nytt om du glemmer det)</h7>
+
+          <h2 class="stegCount" id="steg28 level4">Steg 28</h2>
+          <img class="MPimg" src="./img/28.jpg" alt=""><br>
+          <h7 class="MPimgBT">Når du kommer inn på PCen vil "Server Manager automatisk starte. Om du får opp en rød varsling slik som det er på dette bildet må må du gjøre en scan av systemet. Om det ikke dukker opp noen røde; hopp til nr 31.</h7>
+
+          <h2 class="stegCount" id="steg29 level4">Steg 29</h2>
+          <img class="MPimg" src="./img/29.jpg" alt=""><br>
+          <h7 class="MPimgBT">Trykk på Windows logoen så du har tilgang til "Command Propt" Alternativt kan du søke opp "CMD" i søkefletet til høyre for hjem knappen.</h7>
+
+          <h2 class="stegCount" id="steg30 level4">Steg 30</h2>
+          <img class="MPimg" src="./img/30.jpg" alt=""><br>
+          <h7 class="MPimgBT">Når du er inne på ledreteksten skriv inn "sfc/scannow" La den kjøre i noen minutter eller til du får meldingen som er vist.</h7>
+
+          <h2 class="stegCount" id="steg31 level4">Steg 31</h2>
+          <img class="MPimg" src="./img/32.jpg" alt=""><br>
+          <h7 class="MPimgBT">Når du når denne skjermen har er alle systemen klare for å bli satt opp til web serveren </h7>
+
+          <h2 class="stegCount" id="steg32 level4">Steg 32</h2>
+          <img class="MPimg" src="./img/31.jpg" alt=""><br>
+          <h7 class="MPimgBT">Gå opp øverst i hjørnet til "Tools", deretter velg "Computer Managment". Dette tar deg til en skjerm der du kan lage en ny Admin Bruker </h7>
+
+          <h2 class="stegCount" id="steg33 level4">Steg 33</h2>
+          <img class="MPimg" src="./img/33.jpg" alt=""><br>
+          <h7 class="MPimgBT">Trykk deg inn på "Local Users and groups"</h7>
+
+          <h2 class="stegCount" id="steg34 level4">Steg 34</h2>
+          <img class="MPimg" src="./img/34.jpg" alt=""><br>
+          <h7 class="MPimgBT">Høyreklikk på "Users" og velg "New user"</h7>
+          
+          <h2 class="stegCount" id="steg35 level4">Steg 35</h2>
+          <img class="MPimg" src="./img/35.jpg" alt=""><br>
+          <h7 class="MPimgBT">Fyll inn disse feltene og skriv ned hava du skriver så du har det klart hvor og hva du har lagret (Om du glemmer dette må du starte på nytt)</h7>
+
+          <h2 class="stegCount" id="steg36 level4">Steg 36</h2>
+          <img class="MPimg" src="./img/36.jpg" alt=""><br>
+          <h7 class="MPimgBT">Når du ser at din bruker er satt opp bland alle andre brukerene høreklikker du på den og velger "Properties"/h7>
+
+          <h2 class="stegCount" id="steg37 level4">Steg 37</h2>
+          <img class="MPimg" src="./img/37.jpg" alt=""><br>'
+          <h7 class="MPimgBT">trykk deg videre til "Add..."</h7>
+
+          <h2 class="stegCount" id="steg38 level4">Steg 38</h2>
+          <img class="MPimg" src="./img/38.jpg" alt=""><br>
+          <h7 class="MPimgBT">Legg til din egen bruker inn i Admin gruppen ved å skrive "Administrators" i "Select Groups". Trykk på "OK" </h7>
+          
+          <h2 class="stegCount" id="steg39 level4">Steg 39</h2>
+          <img class="MPimg" src="./img/39.jpg" alt=""><br>
+          <h7 class="MPimgBT">Dobbeltsjekk at alt er riktig ved å gå inn på gruppen "Administrators" i "Groups" mappen.</h7>
+
+          <h2 class="stegCount" id="steg40 VMSP">Steg 40</h2>
+          <img class="MPimg" src="./img/40.jpg" alt=""><br>
+          <h7 class="MPimgBT">Om du ser brukeren din her trykker du "OK".</h7>
+
+          <h2 class="stegCount" id="steg41 VMSP">Steg 41</h2>
+          <img class="MPimg" src="./img/41.jpg" alt=""><br>
+          <h7 class="MPimgBT">Gå inn på Local Server på forsiden til Server Manager.</h7>
+
+          <h2 class="stegCount" id="steg42 VMSP">Steg 42</h2>
+          <img class="MPimg"  src="./img/.jpe42" alt=""><br>
+          <h7 class="MPimgBT">Gå inn på Properties og velg Computer name.</h7>
+          
+          <h2 class="stegCount" id="steg43 VMSP">Steg 43</h2>
+          <img class="MPimg" src="./img/43.jpg" alt=""><br>
+          <h7 class="MPimgBT">Ved å trykke på "Change" går du inn i et vindu der du skriver ned Det du vil at datamaskinen skal hete og det viktigste er Domain, Velg noe lett og huske og skriv det ned.</h7>
+
+          <h2 class="stegCount" id="steg44 VMSP">Steg 44</h2>
+          <img class="MPimg" src="./img/44.jpg" alt=""><br>
+          <h7 class="MPimgBT">Gå inn på "Ethernet0" inne på Properties. Dette er for å åpne nettverket til andre enheter som deler IP adresse og Domain.</h7>
+
+          <h2 class="stegCount" id="steg45 VMSPHERE">Steg 45</h2>
+          <img class="MPimg" src="./img/45.jpg" alt=""><br>
+          <div class="MPimgB">
+          <h7 class="MPimgBT">
+
+          <h2 class="stegCount" id="steg46 VMSPHERE">Steg 46</h2>
+          <img class="MPimg" src="./img/46.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg47 VMSPHERE">Steg 47</h2>
+          <img class="MPimg" src="./img/47.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg48 VMSPHERE">Steg 48</h2>
+          <img class="MPimg" src="./img/48.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg49 VMSPHERE">Steg 49</h2>
+          <img class="MPimg" src="./img/49.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg50 VMSPHERE">Steg 50</h2>
+          <img class="MPimg" src="./img/50.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg51VMSPHERE">Steg 51</h2>
+          <img class="MPimg" src="./img/51.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg52 VMSPHERE">Steg 52</h2>
+          <img class="MPimg" src="./img/52.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg53 VMSPHERE">Steg 53</h2>
+          <img class="MPimg" src="./img/53.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg54 VMSPHERE">Steg 54</h2>
+          <img class="MPimg" src="./img/54.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg55 VMSPHERE">Steg 55</h2>
+          <img class="MPimg" src="./img/55.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg56 VMSPHERE">Steg 56</h2>
+          <img class="MPimg" src="./img/56.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg57 VMSPHERE">Steg 57</h2>
+          <img class="MPimg" src="./img/57.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg58 VMSPHERE">Steg 58</h2>
+          <img class="MPimg" src="./img/58.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg59 VMSPHERE">Steg 59</h2>
+          <img class="MPimg" src="./img/59.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+          
+          <h2 class="stegCount" id="steg60 VMSP">Steg 60</h2>
+          <img class="MPimg" src="./img/60.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg61 VMSP">Steg 61</h2>
+          <img class="MPimg" src="./img/61.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg62 VMSP">Steg 62</h2>
+          <img class="MPimg" src="./img/62.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg63 VMSP">Steg 63</h2>
+          <img class="MPimg" src="./img/63.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+          
+          <h2 class="stegCount" id="steg64 VMSP">Steg 64</h2>
+          <img class="MPimg" src="./img/64.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg65 VMSP">Steg 65</h2>
+          <img class="MPimg" src="./img/65.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg66 VMSP">Steg 66</h2>
+          <img class="MPimg" src="./img/66.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg67 VMSP">Steg 67</h2>
+          <img class="MPimg"  src="./img/.jpe67" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+          
+          <h2 class="stegCount" id="steg68 VMSP">Steg 68</h2>
+          <img class="MPimg" src="./img/68.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg69 VMSP">Steg 69</h2>
+          <img class="MPimg" src="./img/69.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg70 VMSPHERE">Steg 70</h2>
+          <img class="MPimg" src="./img/70.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg71 VMSPHERE">Steg 71</h2>
+          <img class="MPimg" src="./img/71.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg72 VMSPHERE">Steg 72</h2>
+          <img class="MPimg"  src="./img/72.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg73 VMSPHERE">Steg 73</h2>
+          <img class="MPimg" src="./img/73.jg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg74 VMSPHERE">Steg 74</h2>
+          <img class="MPimg" src="./img/74.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+
+          <h2 class="stegCount" id="steg75 VMSPHERE">Steg 75</h2>
+          <img class="MPimg" src="./img/75.jpg" alt=""><br>
+          <h7 class="MPimgBT"></h7>
+  </layer>
+</body>
